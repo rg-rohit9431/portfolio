@@ -60,7 +60,7 @@ const Header = ({ projects }) => {
                 </div>
                 <div className='flex flex-col lg:flex-row w-[100%]  max-w-[700px] gap-[1rem] lg:gap-[3rem] lg:justify-normal justify-center items-center z-1'>
                     <div className='flex items-center w-[100%] lg:w-fit  gap-[3rem] justify-center'>
-                        <NavLink to='https://www.instagram.com/' target='_blank'><FaInstagram className="text-[1.9rem]" /></NavLink>
+                        <NavLink to='https://www.instagram.com/rg_rohit9431' target='_blank'><FaInstagram className="text-[1.9rem]" /></NavLink>
                         <NavLink to='https://www.linkedin.com/in/rohit-gupta-40a631232/' target='_blank' ><FaLinkedin className="text-[1.9rem]" /></NavLink>
                         <NavLink to='https://github.com/rg-rohit9431' target='_blank'><FaGithub className="text-[1.9rem]" /></NavLink>
                     </div>

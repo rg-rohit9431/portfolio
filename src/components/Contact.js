@@ -9,19 +9,17 @@ const Contact = () => {
         subject: "",
         Message: ""
     })
-    function changeHandler(event)
-    {
-        
-        const {name,value}=event.target;
+    function changeHandler(event) {
+
+        const { name, value } = event.target;
         updatedFormData(
             {
-                ...formData,[name]:value
+                ...formData, [name]: value
             });
-    
+
     }
     function submitHandler(event) {
         event.preventDefault();
-        alert("success");
         console.log(formData);
     }
     return (
@@ -59,21 +57,21 @@ const Contact = () => {
                         className=" sm:w-[70%] h-[3rem] border-2 text-[1.1rem] capitalize text-black rounded-md p-2 shadow-lg" name="fullName"
                         value={formData.fullName}
                         onChange={changeHandler}
-                        id="fullName" required/>
+                        id="fullName" required />
                     <input type="email" placeholder="Email Us*"
                         className=" sm:w-[70%] h-[3rem] border-2 text-[1.1rem]  text-black rounded-md p-2 shadow-lg"
                         name="email"
                         value={formData.email}
                         onChange={changeHandler}
-                        id="email" 
-                        required/>
+                        id="email"
+                        required />
                     <input type="text" placeholder="Subject*"
                         className=" sm:w-[70%] h-[3rem] border-2 text-[1.1rem] capitalize text-black rounded-md p-2 shadow-lg"
                         name="subject"
                         value={formData.subject}
                         onChange={changeHandler}
-                        id="subject" 
-                        required/>
+                        id="subject"
+                        required />
                     <label htmlFor="Message" className="text-[1.2rem] text-[#116466] font-[500]">
                         Tell Me About Your Project
                     </label>
