@@ -39,7 +39,7 @@ const Data= [
     {
         id: 1,
         name: "PortFolio",
-        link:"https://rg-rohit9431.github.io/portfolio/",
+        link:"https://rgrohit9431.netlify.app/",
         img: "https://img.freepik.com/free-vector/landing-page-travel-with-image_23-2148359296.jpg?w=996&t=st=1704892404~exp=1704893004~hmac=4d56a9d3305d76187f498b4a272eb533777af7c49e16050561065ca8aad8e839"
     },
 ]
