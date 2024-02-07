@@ -1,6 +1,12 @@
 const Data= [
     
     {
+        id: 8,
+        name: "Plus Care",
+        link:"https://github.com/rg-rohit9431/Diversion2k24-PlusCare",
+        img: "https://github.com/rg-rohit9431/Diversion2k24-PlusCare/blob/master/src/assets/pluscare.png?raw=true"
+    },
+    {
         id: 7,
         name: "RazorPay Clone",
         link:"https://github.com/rg-rohit9431",
