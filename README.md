@@ -11,7 +11,7 @@ Experienced frontend developer skilled in HTML, CSS, JavaScript, and meticulous 
 - [Experience](#experience)
 - [Contact](#contact)
 
-## Projects
+## Sample Projects
 
 ### [Project 1 Responsive Grocery Website](https://rg-rohit9431.github.io/responsive-grocery-website-design/)
 
@@ -47,7 +47,7 @@ Experienced frontend developer skilled in HTML, CSS, JavaScript, and meticulous 
 
 - Email: [9431rohitkumar@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/rohit-gupta-40a631232/]
-- Portfolio: [https://rg-rohit9431.github.io/portfolio/]
+- Portfolio: [https://rgrohit9431.netlify.app/]
 
 Feel free to reach out to discuss collaboration, job opportunities, or just to connect. I'm always open to new opportunities and conversations!
 
