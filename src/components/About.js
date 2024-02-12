@@ -11,9 +11,9 @@ const About = () => {
 
                     <div className="flex flex-col justify-center items-center gap-[1rem]  w-[100%] lg:w-[50%] h-[100%] ">
                         <h2 className=" text-[2.4rem] w-[100%] mb-2 font-[600] text-[#c0c0c0] pl-1">Why Should Hire Me for Your <span className="text-[#116466]">Projects</span>?</h2>
-                        <p className="w-[90%] text-[1.4rem] text-[#c0c0c0] mb-2 ">I'm an experienced full-stack web developer with a strong track record in creating user-friendly, secure, and high-performance web applications.</p>
+                        <p className="lg:w-[90%] text-[1.4rem] text-[#c0c0c0] mb-2 ">I'm an experienced full-stack web developer with a strong track record in creating user-friendly, secure, and high-performance web applications.</p>
 
-                        <ul className="list-disc w-[80%] mx-auto text-[#116466]">
+                        <ul className="list-disc w-[90%] lg:w-[80%] mx-auto text-[#116466]">
                             <li className="text-[1.1rem]">Extensive experience in <span className='text-[#c0c0c0]'>full-stack web development</span>.</li>
                             <li className="text-[1.1rem]"><span className='text-[#c0c0c0]'>User-centric design </span>for exceptional user experiences.</li>
                             <li className="text-[1.1rem]"><span className='text-[#c0c0c0]'>Adaptability</span> to changing project requirements.</li>

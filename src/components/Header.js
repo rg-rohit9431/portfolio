@@ -30,7 +30,7 @@ const Header = ({ projects }) => {
 
             <div className='h-full lg:w-[20%] gap-[1rem] lg:gap-[.5rem] w-[100%] flex flex-col sm:flex-row  sm:justify-around  md:flex-col justify-center  lg:justify-around items-center xl:justify-center xl:gap-[2rem]'>
                 <div className='w-[100%] max-w-[250px] mb-[.5rem]  flex flex-col items-center'>
-                    <img src={profile} alt='ProfileImage' className='w-[90%] aspect-square mb-[.5rem] grayscale-[50%] hover:grayscale-0'/>
+                    <img src={profile} alt='ProfileImage' className='w-[90%] aspect-square mb-[.5rem]'/>
                     <p className='text-[1.2rem] font-[500] text-[#116466]'>Hello guys! I am Rohit Gupta...</p>
                 </div>
                 <div className='projectImg  relative overflow-x-hidden w-[100%] max-w-[250px] h-fit'>
@@ -45,11 +45,11 @@ const Header = ({ projects }) => {
 
 
             <div className=' flex flex-col items-center lg:items-end gap-[2rem] w-[100%] lg:w-[80%] h-full xl:justify-center xl:gap-[2rem]'>
-                <div className='w-[100%] max-w-[500px] mt-10 '>
+                <div className='w-[90%] max-w-[500px] mt-10 '>
                     <h1 className=' text-[2.4rem] sm:text-[3.4rem] md:text-[4.6rem]  md:text-nowrap'>Rohit Gupta</h1>
                     <div className='w-[90px] h-[12px] bg-[#116466] mt-4'></div>
                 </div>
-                <div className='w-[100%]  max-w-[700px] flex flex-col sm:items-center md:items-start'>
+                <div className='w-[90%]  max-w-[700px] flex flex-col sm:items-center md:items-start'>
                     <p className='mb-3 text-xl'>-Introduction</p>
                     <p className='mb-3 text-2xl '>
                         Full Stack Web Developer and UI & UX Designer

@@ -4,8 +4,8 @@ import { MdNorthEast } from "react-icons/md";
 
 const Card = ({ project }) => {
   return (
-    <div className='w-[100%] max-w-[260px] h-fit rounded-md p-2'>
-      < img className='w-full h-[160px] object-fill mb-[1rem] rounded-sm ' src={project.img} alt={project.name} />
+    <div className='w-[90%] sm:w-[280px]  p-2'>
+      < img className='w-full sm:h-[160px] object-fill mb-[1rem] rounded-sm ' src={project.img} alt={project.name} />
 
       <p className='text-[1.6rem] w-[100%] mb-[1rem] ml-[.5rem] font-[600] text-[#116466]'>{project.name}</p>
 
