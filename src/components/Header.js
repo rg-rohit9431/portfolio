@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import Resume from "../assets/latest resume 2.pdf";
+import Resume from "../assets/RohitKumarGuptaResume.pdf";
 import { Button } from '@react-email/components';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { MdDownloadDone } from "react-icons/md";
