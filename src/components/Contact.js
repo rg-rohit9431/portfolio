@@ -24,7 +24,7 @@ const Contact = () => {
     }
     return (
         <div id="contact"
-            className="w-[100%] max-w-[1800px] h-fit mx-auto flex flex-col lg:flex-row justify-around items-center xl:max-h-[1000px]  mb-4 mt-1 rounded-xl p-2">
+            className="w-[100%]  h-fit mx-auto flex flex-col lg:flex-row justify-around items-center xl:max-h-[1000px]  mb-4 mt-1 rounded-xl p-2">
             <div className="left-content w-[90%] lg:w-[50%] mb-[3rem] h-[100%] rounded-lg p-[1rem] mx-auto">
                 <div className="text-[1.7rem] md:text-[2.5rem] my-[1rem]">
                     <p className='text-[#116466]'>Let's Chat.</p>

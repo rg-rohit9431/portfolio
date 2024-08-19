@@ -1,29 +1,53 @@
+// import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
+
 
 import data from '../data.js';
 import Card from './Card.js';
 
-const Project = ({ showAll }) => {
-  const length= data.length-6;
+const Project = () => {
+  const [showAll, setShowAll] = useState(false);
+  const length = data.length - 6;
   const projects = data.filter((project) => project.id > length);
   return (
-    <div id='project' className='w-[100%] h-fit mt-[1rem] '>
-      <p className='text-[2.4rem]  font-bold text-center w-[100%] my-[2rem] uppercase'>Featured Projects</p>
-      <div className='flex flex-col sm:flex-row gap-[2rem] items-center justify-center flex-wrap max-w-[1800px] w-full xl:max-h-[800px]  h-full mx-auto border-1 p-1 '>
-        {
-          showAll!==false ? (
-            data.map(project =>
-              <Card key={project.id} project={project} />
-            )
-          )
-            : (projects.map(project =>
-              <Card key={project.id} project={project} />
-            )
-            )
-        }
+    <div id='project' className='w-[100%] h-fit  border-l-2  pb-[4rem] relative'>
+      <p className='text-[2.4rem]  font-bold text-center my-[2rem] uppercase'>Featured Projects</p>
 
-      </div>
+
+      {
+        showAll !== false ? (
+          <div>
+            <div className=' flex flex-wrap gap-[2rem] justify-center'>
+              {
+                data.map(project =>
+                  <Card key={project.id} project={project} />
+                )
+              }
+            </div>
+            {showAll && <button onClick={() => {
+              setShowAll(false);
+            }} className='absolute bottom-[1rem] right-[3rem] text-blue-400'>See less...</button>}
+          </div>
+        )
+          : (
+            <div >
+              <div className=' flex flex-wrap gap-[2rem] justify-center'>
+                {
+                  projects.map(project =>
+                    <Card key={project.id} project={project} />
+                  )
+                }
+              </div>
+              {!showAll && <button onClick={() => {
+                setShowAll(true);
+              }} className='absolute bottom-[1rem] right-[3rem] text-blue-400'>See More...</button>}
+            </div>
+          )
+      }
 
     </div>
+
 
   )
 
