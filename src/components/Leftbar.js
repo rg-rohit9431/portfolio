@@ -4,7 +4,7 @@ import React from 'react'
 // import profile from '../assets/profileImg.jpg';
 import { Link } from 'react-router-dom';
 import { MdNorthEast } from "react-icons/md";
-import snackbaeimg from '../assets/snackbae.png';
+// import snackbaeimg from '../assets/snackbae.png';
 import { BsBuildingsFill } from "react-icons/bs";
 
 
