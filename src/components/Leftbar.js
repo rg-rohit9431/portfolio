@@ -5,7 +5,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { MdNorthEast } from "react-icons/md";
 // import snackbaeimg from '../assets/snackbae.png';
-// import { BsBuildingsFill } from "react-icons/bs";
+import { BsBuildingsFill } from "react-icons/bs";
 
 
 const Leftbar = ({ projects }) => {
