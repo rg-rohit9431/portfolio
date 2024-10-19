@@ -22,7 +22,7 @@ const Leftbar = ({ projects }) => {
             </div>
             <div className='projectImg  relative overflow-x-hidden w-[100%] max-w-[250px] h-fit'>
                 <p className='text-[1.8rem]  w-[100%] mb-1'>Latest work</p>
-                <img src="https://i.ytimg.com/vi/IuYVfEuiSso/maxresdefault.jpg" alt={Img} className='mb-[1rem] w-[100%] aspect-auto'></img>
+                <img src="https://i.ytimg.com/vi/IuYVfEuiSso/maxresdefault.jpg" alt="Img" className='mb-[1rem] w-[100%] aspect-auto'></img>
                 <Link to="https://pluscare-gamma.vercel.app/" target='_blank' className='w-full flex justify-between items-center rounded-md p-[.6rem] border-2 border-black shadow-md bg-[white] mt-2 text-[1.3rem] font-[600] text-[#232323] '>
                     <p>See Project...</p>
                     <MdNorthEast className='text-[1.4rem] text-[#232323]' />
