@@ -11,7 +11,7 @@ const Project = () => {
   const length = data.length - 6;
   const projects = data.filter((project) => project.id > length);
   return (
-    <div id='project' className='w-[100%] h-fit  border-l-2  pb-[4rem] relative'>
+    <div id='project' className='w-[100%] h-fit  bg-gray-50  pb-[4rem] relative'>
       <p className='text-[2.4rem]  font-bold text-center my-[2rem] uppercase'>Featured Projects</p>
 
 

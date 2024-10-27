@@ -1,16 +1,17 @@
-
-
 import { NavLink } from 'react-router-dom';
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import Resume from "../assets/RohitKumarGuptaResume.pdf";
 import { Button } from '@react-email/components';
-import { MdOutlineFileDownload } from "react-icons/md";
-import { MdDownloadDone } from "react-icons/md";
 import { useState } from 'react';
 import './Header.css';
 
+//icons
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
+import { MdDownloadDone } from "react-icons/md";
+
+//data
+import Resume from "../assets/Rohit_Kumar_Gupta_Resume.pdf";
 const Header = () => {
     const [downloaded, setDownloaded] = useState(true);
 
@@ -22,7 +23,7 @@ const Header = () => {
     }
     return (
 
-        <div className=' flex flex-col items-end justify-center  gap-[2rem] w-[100%] h-[100vh]'>
+        <div className=' flex flex-col items-end justify-center gap-[2rem] w-[100%] h-[100vh] '>
             <div className='w-[90%] max-w-[500px] mt-10 '>
                 <h1 className=' text-[2.4rem] sm:text-[3.4rem] md:text-[4.6rem]  md:text-nowrap'>Rohit Gupta</h1>
                 <div className='w-[90px] h-[12px] bg-[#116466] mt-4'></div>
@@ -43,7 +44,7 @@ const Header = () => {
                     <NavLink to='https://github.com/rg-rohit9431' target='_blank'><FaGithub className="text-[1.9rem]" /></NavLink>
                 </div>
                 <Button href={Resume} color="transparent"
-                    target="_blank" download="RohitKumarGuptaResume">
+                    target="_blank" download="Rohit_Kumar_Gupta_Resume">
                     <div className=' download flex shadow-sm px-4 py-3 rounded-md border-2 items-center gap-[.5rem]' onClick={() => changeDownloadHandler(downloaded)}>
                         <p className="text-[1.2rem] font-semibold">Download CV</p>
                         {

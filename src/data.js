@@ -3,7 +3,7 @@ const Data= [
     {
         id: 11,
         name: "Plus Care",
-        link:"https://github.com/rg-rohit9431/Diversion2k24-PlusCare",
+        link:"http://pluscare-gamma.vercel.app/",
         img: "https://github.com/rg-rohit9431/Diversion2k24-PlusCare/blob/master/src/assets/pluscare.png?raw=true"
     },
     {

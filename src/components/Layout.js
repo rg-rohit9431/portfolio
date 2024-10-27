@@ -10,12 +10,13 @@ import Skill from './Skill';
 // import Contact from './Contact';
 import Footer from './Footer.js';
 import Leftbar from './Leftbar.js';
+import Workexperience from './Workexperience.js';
 
 const Layout = () => {
     return (
 
 
-        <div className='w-full h-fit flex justify-end relative '>
+        <div className='relative flex justify-end w-full h-fit '>
 
             {/* left part */}
             <div className='w-[25%] md:block hidden h-fit fixed top-0 left-0 z-10'>
@@ -27,6 +28,7 @@ const Layout = () => {
                 <Header />
                 <About />
                 <Project />
+                <Workexperience />
                 <Skill />
                 {/* <Contact /> */}
                 <Footer />
